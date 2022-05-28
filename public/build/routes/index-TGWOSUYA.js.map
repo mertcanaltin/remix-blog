@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:/Users/macbookpro/Desktop/blog-tutorial/app/routes/index.tsx?browser", "../../../app/routes/index.tsx"],
+  "sourcesContent": ["export { default } from \"/Users/macbookpro/Desktop/blog-tutorial/app/routes/index.tsx\";", "import { Link } from \"@remix-run/react\";\n\nimport { useOptionalUser } from \"~/utils\";\n\nexport default function Index() {\n  const user = useOptionalUser();\n  return (\n    <div className=\"mx-auto mt-16 max-w-7xl text-center\">\n  <Link\n    to=\"/posts\"\n    className=\"text-xl text-blue-600 underline\"\n  >\n    Blog Posts\n  </Link>\n</div>\n  );\n}\n"],
+  "mappings": ";;;;;;;;;;;;AAAA;;;ACAA;AAIe,iBAAiB;AAC9B,QAAM,OAAO;AACb,SACE,oCAAC,OAAD;AAAA,IAAK,WAAU;AAAA,KACjB,oCAAC,MAAD;AAAA,IACE,IAAG;AAAA,IACH,WAAU;AAAA,KACX;AAAA;",
+  "names": []
+}
