@@ -1,12 +1,7 @@
 {
-    "functions": {
-      "api/hello.js": {
-        "includeFiles": "_files/**"
-      },
-      "build": {
-        "env": {
-          "ENABLE_VC_BUILD": "1"
-        }
-      }
+  "build": {
+    "env": {
+      "ENABLE_FILE_SYSTEM_API": "1"
     }
   }
+}
